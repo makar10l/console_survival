@@ -5,6 +5,7 @@ void render(){
 				if(y == 0 || y == 9){
 					for(int x = 0; x < 10; x++){		
 					std::cout << "⚫";
+				
 				}
 				}
 				else{
