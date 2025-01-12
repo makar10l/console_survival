@@ -14,10 +14,10 @@ void sayHello(){
 
 int output(){
     while(1){
-        int poss = 0;
+        int poss;
         int pos = getch();  
         if(pos == 119){
-            poss = 1;     
+            poss = 0;     
             system("clear");               
             set_pos(50,12);
             std::cout << "<" << f_line << ">" << std::endl << std::endl;;
@@ -25,18 +25,18 @@ int output(){
             std::cout << s_line;
         }
         if(pos == 115){
-            poss = 0;
-             system("clear");
+            poss = 1;
+            system("clear");
             set_pos(50,12);
             std::cout  << " " << f_line << std::endl << std::endl;
             set_pos(50,0);
             std::cout << "<" << s_line << ">";
         }   
         if(pos == 10 && poss == 0){
-            return 1;
-        }
-        if(pos == 10 && poss == 1){
             return 0;
+        }
+        else if(pos == 10 && poss == 1){
+            return 1;
         }      
     }
 }
