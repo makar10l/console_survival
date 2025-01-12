@@ -6,7 +6,6 @@
 int toe[10][10];
 
 int main(){	
-	
 	int isRun = main_menu();
 	if(isRun == 1){
 		return 1;
@@ -14,5 +13,5 @@ int main(){
     else{	
 		render();
 	}
-	return 0;
+	return 0;		
 }
