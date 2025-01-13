@@ -14,6 +14,8 @@ int main(){
 	}
     else{	
 		render();
+	 	char* toe = render_game_toe();
+		std::cout << toe[0][0];
 	}
 	return 0;		
 }
