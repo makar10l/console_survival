@@ -1,6 +1,6 @@
 #include <iostream>
 #include <unistd.h>
-#include "set_cur_pos.cpp"
+#include "set_cur_pos.h"
 #include "getch.h"
 #include <string>
 
