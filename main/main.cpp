@@ -1,6 +1,6 @@
 #include "menu/main_menu.h"
-#include "render/render_game_toe.h"
-#include "render/render_frame.h"
+#include "render_game_toe.cpp"
+#include "render_frame.cpp"
 #include <iostream>
 #include <unistd.h>
 
