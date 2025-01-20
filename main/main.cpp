@@ -4,10 +4,13 @@
 #include <iostream>
 #include <unistd.h>
 
-
 int main(){	
 	int isRun = main_menu();
-	std::cout << "boooo";
-	uot();
+	render();
+	std::cout << "\033[1;1H";
+	toes toe;
+    toe.init();
+    toe.out();
+    
 	return 0;		
 }
