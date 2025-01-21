@@ -5,12 +5,9 @@
 #include <unistd.h>
 
 int main(){	
-	int isRun = main_menu();
-	render();
-	std::cout << "\033[1;1H";
+	main_menu();	
 	toes toe;
     toe.init();
     toe.out();
-    
 	return 0;		
 }
